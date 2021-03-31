@@ -1,0 +1,12 @@
+<script src =“ https://static.line-scdn.net/liff/edge/2/sdk.js”> </script>
+var liffID ='1655812984-7nx20X41';
+liff.init（{
+  liffId: liffID
+}).then(function() {
+  console.log('LIFF init');
+  
+  // 這邊開始寫使用其他功能
+  
+}).catch(function(error) {
+  console.log(error);
+});
